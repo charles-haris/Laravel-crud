@@ -22,8 +22,8 @@ class StudentController extends Controller
    
     public function store(Request $request)
     {
-        //$input = $request->all();
-        //Student::create($input);
+        
+        
 
         $student=new Student();
         $student->name=$request->name;
