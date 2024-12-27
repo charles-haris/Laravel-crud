@@ -10,7 +10,7 @@ class Student extends Model
     //protected $table = 'students';//table
     // why is this one commented
     // why is this one commented
-        // why is this one commented
+    // why is this one commented
 
 
     //protected $primaryKey = 'id';//cle primaire
