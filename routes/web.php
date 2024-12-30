@@ -5,7 +5,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\StudentController;
 //ceci est un commentaire
-//je dois passer a python
+//this is a comment
 //je dois passer a python
 Route::get('/', function () {
     return view('/student');
