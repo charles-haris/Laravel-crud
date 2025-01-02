@@ -35,7 +35,7 @@ class StudentController extends Controller
        return redirect('student')->with('flash_message', 'Student Addedd!');  //rediriger
     }
  
-    
+    //this method is called show method 
     public function show($id)
     {
         $student = Student::find($id);
