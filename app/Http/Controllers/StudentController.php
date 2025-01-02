@@ -19,8 +19,8 @@ class StudentController extends Controller
     {
         return view('students.create');
     }
- 
    
+ //this method is called store method 
     public function store(Request $request)
     {
         
