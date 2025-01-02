@@ -13,7 +13,7 @@ class StudentController extends Controller
         $students = Student::all();
         return view ('students.index')->with('students', $students);
     }
- 
+ //this method is called create method 
     
     public function create()
     {
