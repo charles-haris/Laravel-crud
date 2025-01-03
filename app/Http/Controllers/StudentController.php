@@ -59,7 +59,8 @@ class StudentController extends Controller
         return redirect('student')->with('flash_message', 'student Updated!');  //rediriger
     }
  
-   
+      //this method is called destroy method 
+
     public function destroy($id)
     {
         Student::destroy($id);
