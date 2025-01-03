@@ -49,7 +49,7 @@ class StudentController extends Controller
         return view('students.edit')->with('students', $student);
     }
  
-   //this method is called UPDATE method 
+   //this method is called update method 
 
     public function update(Request $request, $id)
     {
