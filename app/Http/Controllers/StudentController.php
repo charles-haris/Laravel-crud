@@ -49,7 +49,8 @@ class StudentController extends Controller
         return view('students.edit')->with('students', $student);
     }
  
-  
+   //this method is called UPDATE method 
+
     public function update(Request $request, $id)
     {
         $student = Student::find($id);
