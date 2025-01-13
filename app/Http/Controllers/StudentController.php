@@ -7,7 +7,7 @@ use App\Models\Student;
 
 class StudentController extends Controller
 {
-//this method is called index method 
+//this method is called index method, this method grants to get all the students using the Model Student 
     public function index()
     {
         $students = Student::all();
