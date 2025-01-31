@@ -8,7 +8,7 @@ use Illuminate\Database\Eloquent\Model;
 class Student extends Model
 {
     //protected $table = 'students';//table
-    // why is this one commentedmknbubub
+    // why is this one commentedmknbubu
         // why is this one commented
     //protected $primaryKey = 'id';//cle primaire
     //protected $fillable = ['name', 'address', 'mobile'];//other champs
