@@ -23,13 +23,14 @@ class StudentController extends Controller
     public function store(Request $request)
     {
         
-        
+        if($request){
 
         $student=new Student();
         $student->name=$request->name;
         $student->address=$request->address;
         $student->mobile=$request->mobile;
         $student->save();
+      }
         
        return redirect('student')->with('flash_message', 'Student Addedd!');  //rediriger
     }
