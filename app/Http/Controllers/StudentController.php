@@ -22,6 +22,7 @@ class StudentController extends Controller
  //this method is called store method 
     public function store(Request $request)
     {
+      //verification 
         
         if($request){
 
